@@ -1,0 +1,77 @@
+https://www.youtube.com/watch?v=FQdaUv95mR8
+==============================================
+
+
+Elements ( Tags ) in HTML : Hyper Text MarkUp Language
+
+<h1>  		header style 1
+<h2>   		header style 2 ( and more )
+</h1>   	close the header element style
+<p>		paragraph
+<b>		bold style or 
+<i> 		italic
+<u>		underline
+<strong> 	similar to bold but not exactly in browser
+<em> 		enhance element
+
+<section>	group all into one section
+
+<ul>		un-ordered list
+<li>		list items
+<ol>		ordered - list
+<br>		insert a new line
+<!--		a Comment    [ visible in " page source "   ]
+-->
+
+<a>		Anchor Element 
+[ need to specify an attribute ,e.g.  <a href="receipe.html"    ]
+
+<a href="index.html">Home</a>     [ this will insert a " Back" link ]
+
+<img>		Image(s)  src = source
+example:	[ <img src="Brand.jpg">    ]
+		[ <img src="Menu.jpg" width="500" height="250"> ]
+<img src="TradeMark.jpg" width="500" height="250" alt="Company TradeMark" >
+
+<audio src="song.mp3" controls type="audio/mp3"></audio>
+
+<video src="myvideo.mp4" controls type="video/mp4" width="480"></video>
+
+Table Element 
+-------------
+<p>
+<table border="1">
+	<tr>
+		<th>Donut Type</th>
+		<th>Price </th>
+		<th>Favour </th>
+	</tr>
+	<tr>
+		<td>6 inches</td>
+		<td>$8.80 </td>
+		<td>Chocolate chip</td>
+	</tr>
+</table>
+</p>
+
+[ <tr> table row(s)    ]
+[ <th> table header(s)    ]
+[ <td> table data    ]
+
+<form>		form
+
+Example :
+
+<form>
+	<label>Cake Type</label>
+	<input name="Cake Type"></br>
+	<label>Quantity</label>
+	<input name="Quantity"></br>
+	<label>Delivery Date</label>
+	<input name="Date" type="date"></br>
+	<button>Order</button>
+</form>
+
+
+<!DOCTYPE html>		Document is HTML page
+<html>
